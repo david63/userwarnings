@@ -39,4 +39,3 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACL_U_VIEW_WARNINGS' => 'Can view a user’s warnings',
 ));
-
