@@ -1,0 +1,7 @@
+services:
+    david63.userwarnings.listener:
+        class: david63\userwarnings\event\listener
+        arguments:
+             - '@auth'
+        tags:
+            - { name: event.listener }
