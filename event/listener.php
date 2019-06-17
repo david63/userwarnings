@@ -59,7 +59,7 @@ class listener implements EventSubscriberInterface
 	*/
 	public function modify_user_warnings($event)
 	{
- 		$post_row 						= $event['post_row'];
+		$post_row						= $event['post_row'];
 		$poster_id 						= $event['poster_id'];
 		$user_cache 					= $event['user_cache'];
 		$poster_warnings 				= $this->auth->acl_gets(array('m_warn', 'u_view_warnings')) ? $user_cache[$poster_id]['warnings'] : '';
