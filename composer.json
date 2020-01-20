@@ -2,8 +2,8 @@
 	"name": "david63/userwarnings",
 	"type": "phpbb-extension",
 	"description": "Displays the number of warnings (if any) for a member.",
-	"version": "2.1.0-RC1",
-	"time": "2019-05-12",
+	"version": "2.1.0-RC2",
+	"time": "2020-01-20",
 		"keywords": [
 		    "phpbb",
 			"extension",
@@ -22,14 +22,15 @@
         "phpbb/epv": "dev-master"
     },
 	"extra": {
-		"display-name": "[*] Show user warnings",
+		"display-name": "[**] Show user warnings",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.2.0"
     	},
 		"version-check": {
         	"host": "version.phpbbdev.space",
-        	"directory": "/3.2",
-        	"filename": "/user_warnings_version_file.json"
+        	"directory": "/versions",
+        	"filename": "user_warnings_version_file.json",
+			"ssl": false
     	}
 	}
 }

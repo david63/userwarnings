@@ -7,6 +7,7 @@ Displays the number of warnings (if any) for a member.
 [![Latest Stable Version](https://poser.pugx.org/david63/userwarnings/v/stable)](https://packagist.org/packages/david63/userwarnings)
 [![Latest Unstable Version](https://poser.pugx.org/david63/userwarnings/v/unstable)](https://packagist.org/packages/david63/userwarnings)
 [![Total Downloads](https://poser.pugx.org/david63/userwarnings/downloads)](https://packagist.org/packages/david63/userwarnings)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7e54f52b678443490b92fdbcedd037b)](https://www.codacy.com/manual/david63/userwarnings?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/userwarnings&amp;utm_campaign=Badge_Grade)
 
 ## Minimum Requirements
 * phpBB 3.2.0
